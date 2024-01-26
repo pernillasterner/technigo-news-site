@@ -11,6 +11,13 @@ html {
   scroll-behavior: smooth;
 }
 
+main,
+header {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 6rem;
+}
+
 h1,
 h2,
 h3 {
@@ -25,8 +32,6 @@ body {
 }
 
 main {
-  padding-top: 100px;
-  max-width: 1600px;
   margin: 0 auto;
   letter-spacing: 0.01em;
   background: #fff;
@@ -73,4 +78,75 @@ p {
   margin-bottom: 1.25rem;
   font-family: Verdana, sans-serif;
   line-height: 1.5em;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 10px 15px;
+  width: fit-content;
+  min-width: 100px;
+  font-size: 0.8rem;
+}
+
+/* HEADER */
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  padding-left: 3rem;
+}
+
+/* SECTION: HERO */
+.hero {
+  /* position: relative; */
+  display: flex;
+  justify-content: left;
+}
+
+/* .hero h1,
+.hero p,
+.hero button {
+  position: relative;
+  z-index: 20;
+} */
+
+.hero-content {
+  position: absolute;
+  text-align: left;
+  padding: 3em;
+}
+
+/* .hero-content::before {
+  content: "VOGUE";
+  font-size: 10rem;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+} */
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.hero button {
+  border: 1px solid gold;
 }
