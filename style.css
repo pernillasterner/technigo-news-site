@@ -80,6 +80,7 @@ p {
   margin-bottom: 1.25rem;
   font-family: Verdana, sans-serif;
   line-height: 1.5em;
+  font-size: 0.7rem;
 }
 
 ul li {
@@ -151,4 +152,59 @@ li {
 
 .hero button {
   border: 1px solid gold;
+}
+
+/* SECTION: LATEST NEWS */
+.latest-news {
+  margin: 5rem 0;
+  display: flex;
+}
+.content-box,
+.images-box {
+  width: 50%;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  padding-right: 5em;
+}
+
+.images-box {
+  position: relative;
+  min-height: 700px;
+  padding-left: 5em;
+}
+
+.images-box img {
+  position: absolute;
+  max-width: 250px;
+}
+
+.img-1 {
+  left: 0;
+}
+
+.img-2 {
+  right: 50px;
+}
+
+.img-3 {
+  left: -50px;
+  top: 400px;
+}
+
+.img-4 {
+  right: 50px;
+  top: 250px;
+}
+
+.img-5 {
+  bottom: 0;
+}
+
+.img-6 {
+  right: 0;
 }
