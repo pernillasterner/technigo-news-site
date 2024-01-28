@@ -1,3 +1,5 @@
+ <img src="./assets/screenshot.png" alt="Screenshot Hero">
+
 # News Site
 
 Vogue Site is a project that is focusing on responsive design and the layout techniques of CSS Grid and Flexbox.

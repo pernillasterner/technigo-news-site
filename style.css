@@ -202,6 +202,7 @@ nav .show-links .close {
   text-align: center;
   padding: 4em;
   max-width: 700px;
+  display: none;
 }
 
 /* .hero-content::before {
@@ -232,6 +233,7 @@ nav .show-links .close {
 .latest-news {
   margin: 5rem 0;
   display: flex;
+  overflow: hidden;
 }
 .content-box,
 .images-box {
@@ -255,24 +257,41 @@ nav .show-links .close {
 .images-box img {
   position: absolute;
   max-width: 250px;
+  opacity: 0;
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .img-1 {
   left: 0;
+  animation-delay: 0.5s;
 }
 
 .img-2 {
   right: 50px;
+  animation-delay: 1s;
 }
 
 .img-3 {
   left: -50px;
   top: 400px;
+  animation-delay: 1.5s;
 }
 
 .img-4 {
   right: 50px;
   top: 250px;
+  animation-delay: 2s;
 }
 
 /* .img-5 {
