@@ -16,6 +16,7 @@ header {
   max-width: 1600px;
   margin: 0 auto;
   padding: 0 6rem;
+  padding-bottom: 6rem;
 }
 
 h1,
@@ -220,6 +221,7 @@ li {
 }
 
 /* SECTION: TOP STORIES */
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -269,16 +271,41 @@ li {
   color: #fff;
 }
 
+footer {
+  background-color: #6b6a6a;
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+  padding-top: 1rem;
+}
+
+footer a {
+  font-size: 0.8rem;
+  color: #fff;
+  border-right: 1px solid #fff;
+  padding: 0 0.7em;
+}
+
+footer a:last-child {
+  border: none;
+}
+
 /* Tablet view - 2 columns */
 @media (max-width: 1199px) and (min-width: 768px) {
   main,
   header {
-    padding: 0 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
     column-gap: 15px;
+  }
+
+  .img-2,
+  .img-4 {
+    display: none;
   }
 }
 
@@ -286,7 +313,8 @@ li {
 @media (max-width: 767px) {
   main,
   header {
-    padding: 0 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .hero-content {
