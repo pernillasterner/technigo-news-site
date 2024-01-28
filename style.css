@@ -283,13 +283,12 @@ nav .show-links .close {
   right: 0;
 } */
 
-.top-stories h3 {
+.top-stories h2 {
   border-top: 1px solid #6b6a6a;
   border-bottom: 1px solid #6b6a6a;
 }
 
 /* SECTION: TOP STORIES */
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -401,13 +400,11 @@ footer a:last-child {
   .img-1 {
     left: 0;
     top: 0;
-    left: -50px;
   }
 
   .img-2 {
     right: 0;
-    top: 20px; /* Adjust positioning */
-    right: -40px;
+    top: 20px;
   }
 
   .img-3,
@@ -420,6 +417,7 @@ footer a:last-child {
     grid-template-columns: 1fr;
     row-gap: 30px;
     column-gap: 10px;
+    row-gap: 60px;
   }
 
   .grid-item:first-child {
