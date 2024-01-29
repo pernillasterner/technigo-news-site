@@ -299,6 +299,10 @@ nav .show-links .close {
   position: relative;
 }
 
+.grid-item p {
+  font-size: 0.4rem;
+}
+
 .small-image {
   grid-column: span 1;
   grid-row: span 1;
