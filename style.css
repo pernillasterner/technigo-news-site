@@ -195,29 +195,11 @@ nav .show-links .close {
   height: auto;
 }
 
-/* .hero h1,
-.hero p,
-.hero button {
-  position: relative;
-  z-index: 20;
-} */
-
 .hero-content {
   position: absolute;
   text-align: center;
   max-width: 700px;
 }
-
-/* .hero-content::before {
-  content: "VOGUE";
-  font-size: 10rem;
-  position: absolute;
-  z-index: 10;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-} */
 
 .hero-content h1 {
   font-size: 4rem;
@@ -297,14 +279,6 @@ nav .show-links .close {
   animation-delay: 2s;
 }
 
-/* .img-5 {
-  bottom: 0;
-}
-
-.img-6 {
-  right: 0;
-} */
-
 .top-stories h2 {
   border-top: 1px solid #6b6a6a;
   border-bottom: 1px solid #6b6a6a;
@@ -318,10 +292,6 @@ nav .show-links .close {
   column-gap: 20px;
   row-gap: 50px;
 }
-
-/* .grid-item p {
-  font-size: 0.4rem;
-} */
 
 .grid-item:first-child {
   grid-column: span 2;
