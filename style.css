@@ -155,11 +155,10 @@ nav .show-links li a {
 
 nav .close {
   display: none;
-  content: "x";
   color: #000;
   position: absolute;
   z-index: 25;
-  right: 2rem;
+  right: 1rem;
   cursor: pointer;
   padding: 10px;
   background-color: #fff;
@@ -175,6 +174,12 @@ nav .show-links .close {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+
+  background-image: url("./assets/kate.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 
 .hero::before {
@@ -200,7 +205,6 @@ nav .show-links .close {
 .hero-content {
   position: absolute;
   text-align: center;
-  padding: 4em;
   max-width: 700px;
 }
 
@@ -216,7 +220,7 @@ nav .show-links .close {
 } */
 
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .hero-content p {
@@ -315,8 +319,8 @@ nav .show-links .close {
   row-gap: 50px;
 }
 
-/* .grid-item {
-  position: relative;
+/* .grid-item p {
+  font-size: 0.4rem;
 } */
 
 .grid-item:first-child {
@@ -357,7 +361,7 @@ nav .show-links .close {
 }
 
 footer {
-  background-color: #6b6a6a;
+  background-color: #1c1c1c;
   display: flex;
   justify-content: center;
   min-height: 300px;
@@ -398,8 +402,8 @@ footer a:last-child {
 @media (max-width: 767px) {
   main,
   header {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .nav-links {
@@ -410,8 +414,21 @@ footer a:last-child {
     display: block;
   }
 
+  .hero {
+    background-image: url("./assets/gigi.jpg");
+    background-position: center top;
+  }
+
   .hero-content {
-    padding: 1em;
+    padding: 0.6em;
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .hero-content p {
+    font-size: 0.8rem;
   }
 
   /* Section: Latest News */
