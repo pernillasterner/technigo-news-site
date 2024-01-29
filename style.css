@@ -205,6 +205,10 @@ nav .show-links .close {
   font-size: 4rem;
 }
 
+.hero-content span {
+  display: block;
+}
+
 .hero-content p {
   font-family: "Gothic";
   font-size: 1rem;
