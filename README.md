@@ -20,4 +20,4 @@ Implemented a responsive grid layout using CSS Grid, providing easy control over
 
 ## View it live
 
-[Vogue Magazine](https://project-technigo-news-site.netlify.app)
+[Vogue Magazine](https://technigo-project-news-site.netlify.app)
